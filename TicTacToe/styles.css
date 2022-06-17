@@ -1,0 +1,72 @@
+:root
+{
+    --primary-color:#1C8EC9;
+    --text-color:#f3f3f3;
+    --background-color:#22252a;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: var(--background-color);
+}
+
+h2
+{
+    text-align: center;
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    color: var(--text-color);
+}
+
+.Container
+{
+    padding-top:2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Grid-Container
+{
+    padding-top: 1rem;
+    display:grid;
+    grid-template-columns: repeat(3,100px);
+    justify-content: center;
+}
+.Grid-Button
+{
+    padding: 2.25rem;
+    border-color: var(--text-color);
+    width: 100px;
+    height: 100px;
+    background-color: #1e2025;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#Message-Box
+{
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: var(--text-color);
+}
+
+#Reset-Button
+{
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    padding: 0.25rem;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 1rem;
+
+}
